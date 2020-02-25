@@ -7,6 +7,7 @@ import DrawerContainer from '../screens/DrawerContainer/DrawerContainer';
 import IngredientScreen from '../screens/Ingredient/IngredientScreen';
 import SearchScreen from '../screens/Search/SearchScreen';
 import IngredientsDetailsScreen from '../screens/IngredientsDetails/IngredientsDetailsScreen';
+import { colors } from 'react-native-elements';
 
 const MainNavigator = createStackNavigator(
   {
@@ -27,7 +28,7 @@ const MainNavigator = createStackNavigator(
         textAlign: 'center',
         alignSelf: 'center',
         flex: 1,
-        fontFamily: 'FallingSkyCond'
+        fontFamily: 'FallingSkyCond',
       }
     })
   }

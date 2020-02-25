@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, ImageBackground } from 'react-native';
 import { RecipeCard } from '../../AppStyles';
 
 const styles = StyleSheet.create({

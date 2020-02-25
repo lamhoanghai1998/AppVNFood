@@ -1,30 +1,30 @@
 export const categories = [
   {
     id: 3,
-    name: 'Bánh Qui',
+    name: 'Bánh Mì',
     photo_url:
-    'https://www.telegraph.co.uk/content/dam/Travel/2019/January/france-food.jpg?imwidth=1400'
+    'https://www.vietnammm.com/blog/wp-content/uploads/2017/09/banh-mi_vietnammm_F.jpg'
   },
   {
     id: 1,
-    name: 'Ẩm thực Mexico',
+    name: 'Cơm truyền thống',
     photo_url: 'https://ak1.picdn.net/shutterstock/videos/19498861/thumb/1.jpg'
   },
   {
     id: 2,
-    name: 'Ẩm thực Ý',
+    name: 'Bún nước & khô',
     photo_url:
       'https://images.unsplash.com/photo-1533777324565-a040eb52facd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80'
   },
   {
     id: 4,
-    name: 'Smoothies',
+    name: 'Phở Gia Truyền',
     photo_url:
     'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/still-life-of-three-fresh-smoothies-in-front-of-royalty-free-image-561093647-1544042068.jpg?crop=0.715xw:0.534xh;0.0945xw,0.451xh&resize=768:*'
   },
   {
     id: 0,
-    name: 'Bánh Pizza',
+    name: 'Mì Và Hủ Tiếu',
     photo_url: 'https://amp.businessinsider.com/images/5c084bf7bde70f4ea53f0436-750-563.jpg'
   },
 ];
@@ -33,28 +33,28 @@ export const recipes = [
   {
     recipeId: 122,
     categoryId: 3,
-    title: 'Oatmeal Cookies',
-    photo_url: 'https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg',
+    title: 'Bánh Mì Kẹp Thịt',
+    photo_url: 'https://thucthan.com/media/2018/01/cach-lam-nuoc-sot-banh-mi/nuoc-sot-banh-mi-kep-thit.jpg',
     photosArray: [
-      'https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg',
-      "https://namelymarly.com/wp-content/uploads/2018/04/20180415_Beet_Lasagna_10.jpg",
-      'https://advancelocal-adapter-image-uploads.s3.amazonaws.com/image.al.com/home/bama-media/width600/img/news_impact/photo/burger-fijpg-57e7e5907630c2ad.jpg',
-      'https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1439,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1492718105/articles/2013/09/24/burger-king-s-new-french-fries-took-ten-years-to-develop/130923-gross-burger-tease_izz59e',
-      'https://aht.seriouseats.com/images/2012/02/20120221-193971-fast-food-fries-Burger-King-fries-2.jpg'
+      'https://cdn.tgdd.vn/Files/2019/05/16/1167254/1.jpg',
+      'https://i.ytimg.com/vi/6Lp8j9rhsSs/hqdefault.jpg',
+      'https://images.foody.vn/images/1-20.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTjOgJ6Nk_ixAM0-e0_rBePHB47KYkyvG_ZzFRJlMXVkrXEeDWZ',
+      'https://lyhoangdong.weebly.com/uploads/1/0/9/6/109671651/quan-banh-mi-thit-nuong_orig.jpg'
     ],
     time: '15',
     ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
     description:
-      '-- Start with cleaned and peeled russet potatoes that you have cut into 3/8-inch match sticks. Place in bowl of very cold water: keep rinsing and changing the water until the water is clear; drain thoroughly and dry with paper towels or a clean lint-free kitchen towel.\n\n -- Meanwhile, you preheat your hot oil to 350 degrees F. Place prepared taters in oil and cook about 5 minutes. They will have that blond-tone color to them. \n\n -- Note: Once you add cold potatoes to the hot oil, the temperature of your oil is going to drop - you want it to be somewhere between 330 - 325 degrees F. \n\n -- Remove from oil; drain and cool. Now - either refrigerate until ready to finish cooking, or cool completely and freeze up to 3 months. To freeze properly - place completely cooled fries in single layer on tray and place in freezer until frozen. Then bag them.\n\n -- To finish cooking - preheat your oil to 400* F. Add your cold fries (which will drop the oil temp - which is fine because you want it near the 375 degrees F. temp) and cook a few minutes until done. Lightly salt them and shake well so that the salt distributes well and they are not salty.'
+      '-- Bánh mì có mặt khắp mọi nơi nên là món ăn sáng hay ăn trưa khá tiện lợi cho những ai bận rộn. Chỉ cần dậy sớm một chút, bạn cũng có thể tự tay thử các cách làm bánh mì thơm ngon và đầy đủ dưỡng chất cho cả nhà đấy.\n\n --Lợi ích của bánh mì không chỉ nằm ở sự nhanh gọn và hợp túi tiền mà còn tốt cho sức khỏe nhờ các thành phần dưỡng chất trong thịt gà, dưa leo, đồ chua, ớt…  \n\n --Các bước thực hiện \n\n Để làm bánh mì kẹp thịt tại nhà, bạn cần bỏ thời gian ướp và nướng thịt để làm nhân bánh. Tuy nhiên, bạn có thể ướp trước từ đêm hôm trước để nấu nhanh hơn vào buổi sáng \n\n Ướp thịt\n\n – Rửa sạch thịt heo rồi lấy mũi dao nhọn đâm vài lần vào miếng thịt để thịt thấm gia vị hơn.\n\n – Ướp thịt 1 – 2 tiếng với ngũ vị hương, hành tỏi bằm, dầu mè, bột nêm, nước tương. \n\n Làm đồ chua \n\n – Làm sạch rồi cắt sợi cà rốt và củ cải.\n\n – Ướp cà rốt và củ cải với lượng dấm, muối và đường đã chuẩn bị. \n\n – Trộn đều tất cả rồi đổ hỗn hợp trên vào một hũ sạch. \n\n – Bỏ vào ngăn mát tủ lạnh để bảo quản. \n\n Nướng thịt \n\n – Sau khi ướp thịt đủ 2 tiếng, bạn bỏ bớt hành tỏi trên miếng thịt rồi bỏ lên chảo chiên lửa nhỏ. Khi chiên, bạn có thể đậy nắp vung để dầu không bắn ra ngoài và thịt chín đều hơn.\n\n – Lật miếng thịt 3 phút/lần để thịt chín đều hai mặt. Bạn liên tục chở miếng thịt cho tới khi thịt chín, khi xâm thử không còn ra nước hồng. \n\n – Gắp thịt ra đĩa nhưng để lại ít nước thịt trong chảo. Bạn cho nước tương vào đun cùng nước thịt này để làm sốt. \n\n Kẹp bánh mì \n\n – Nướng giòn bánh mì rồi rạch thân bánh. \n\n – Mở bánh mì theo đường rạch rồi phết pate vào bánh.\n\n – Xếp đồ chua, ngò, dưa leo và thịt đã xắt vào bánh. \n\n – Cho thêm ít nước sốt và mayonnaise sao cho vừa miệng.'
   },
   {
     recipeId: 3,
     categoryId: 4,
-    title: 'Triple Berry Smoothie',
+    title: 'Phở Bò',
     photo_url:
-      'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-how-to-make-a-smoothie-horizontal-1542310071.png?crop=0.803xw:0.923xh;0.116xw,0.00510xh&resize=768:*',
+      'https://cdn.tgdd.vn/Files/2018/06/14/1095399/huong-dan-chi-tiet-cach-nau-pho-bo-thom-ngon-bo-duong-cho-ca-nha.png',
     photosArray: [
-      'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-how-to-make-a-smoothie-horizontal-1542310071.png?crop=0.803xw:0.923xh;0.116xw,0.00510xh&resize=768:*',
+      'https://naungon.net/wp-content/uploads/2019/07/cach-nau-mon-pho-bo-ha-noi-ngon-chuan-vi.jpg',
       'https://www.vitamix.com/media/other/images/xVitamix-Triple-Berry-Smoothie-square-crop__1.jpg.pagespeed.ic.OgTC3ILD3R.jpg',
       'http://images.media-allrecipes.com/userphotos/960x960/3798204.jpg',
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrzui8MM6W66I29VZwVvcjpGv99JW3O1owgupc3KwB65rhAyrZ'
@@ -70,13 +70,13 @@ export const recipes = [
   {
     recipeId: 2,
     categoryId: 3,
-    title: 'Vegan Cookies',
-    photo_url: 'https://www.texanerin.com/content/uploads/2018/06/no-bake-lactation-cookies-1-650x975.jpg',
+    title: 'Bánh Mì Ốp La',
+    photo_url: 'https://banhmro.com.vn/wp-content/uploads/2017/02/cach-lam-trung-op-la-ngon-dep-va-don-gian-an-voi-banh-mi.jpg',
     photosArray: [
-      'https://www.texanerin.com/content/uploads/2018/06/no-bake-lactation-cookies-1-650x975.jpg',
-      'https://ichef.bbci.co.uk/news/660/cpsprodpb/B2C0/production/_106106754_vegnuggets976.jpg',
-      'https://pixel.nymag.com/imgs/daily/grub/2017/11/22/22-mcds-chicken-tenders.w330.h330.jpg',
-      'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-img.health.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Flarge_16_9%2Fpublic%2Fstyles%2Fmain%2Fpublic%2Fgettyimages-508510211.jpg%3Fitok%3Dh-Uryi8r&w=400&c=sc&poi=face&q=85'
+      'https://images.foody.vn/res/g22/215808/prof/s576x330/foody-mobile-m-banh-jpg-584-635926828227408368.jpg',
+      'https://chabocole.com/wp-content/uploads/2018/01/banh-mi-op-la-da-nang.jpg',
+      'https://cdn.muabannhanh.com/asset/frontend/img/gallery/2020/02/10/5e414d566bc1f_1581337942.jpg',
+      'https://media.dalatcity.org//Images/LDG/bongconganh/Cul-de-sac%20Bed%20And%20Cafe/cropper_636951633417178857.jpg'
     ],
     time: '30',
     ingredients: [
@@ -92,19 +92,19 @@ export const recipes = [
       [21, '4']
     ],
     description:
-      '-- Beat the egg and then combine it with water in a bowl. Stir. Combine the flour, salt, MSG, pepper, onion powder and garlic powder in a gallon size zip lock bag. Pound each of the breast filets until about 1/4-inch thick. Then cut into bite sized pieces. Coat each piece with the flour mixture by shaking in the zip lock bag. Remove and coat in the egg mixture. Then coat in the flour mixture again. Shake to coat. Deep fry at 375 degrees for 10-12 minutes, until browned and crispy.'
+      'Mỗi buổi sáng, bạn chỉ cần dậy sớm 10 phút là có thể tự làm cho mình ổ bánh mì trứng thơm ngon và đủ chất.\n\n Các bước thực hiện \n\n – Làm sạch và cắt nhỏ các loại rau củ quả ăn kèm như dưa leo, cà chua, ngò sao cho dễ kẹp vào bánh mì.\n\n – Xẻ một đường trên thân bánh để có thể kẹp nhân vào.\n\n – Mở bánh mì ra rồi phết bơ đều khắp bánh.\n\n – Xếp các loại rau bạn muốn ăn như cà chua, dưa leo, ngò… vào bánh mì.\n\n – Đập một quả trứng vào tô rồi cho thêm hành lá thái nhỏ, tiêu, bột ngọt, mắm rồi khuấy đều. Bạn có thể dùng tô có thành cao hoặc dùng cốc to khi đánh trứng để trứng không bắn ra ngoài.\n\n – Khi trứng đã đều, bạn đổ lên chảo đã có dầu để chiên chín. Bạn hãy chiên vàng một mặt trứng rồi mới lật mặt kia để trứng không rách.\n\n – Khi trứng đã chín đều 2 mặt, bạn gập đôi miếng trứng lại rồi kẹp vào bánh mì đã chuẩn bị sẵn.\n\n – Nếu muốn vỏ bánh nóng giòn, bạn có thể đặt bánh mì vừa kẹp xong lên chảo để nướng lại. Bạn hãy nướng đều hai mặt nhé.\n\n – Thêm tương ớt, tương cà hay mayonnaise tùy khẩu vị.'
   },
   {
     recipeId: 3,
     categoryId: 3,
-    title: 'Pumpkin Spice Cookies',
+    title: 'Bánh Mì Gà',
     photo_url:
-      'https://www.texanerin.com/content/uploads/2018/11/pumpkin-spice-cookies-4-650x975.jpg',
+      'https://media-cdn.tripadvisor.com/media/photo-s/0a/8b/d4/09/banh-mi-ga-xe.jpg',
     photosArray: [
-      'https://www.texanerin.com/content/uploads/2018/11/pumpkin-spice-cookies-4-650x975.jpg',
-      'https://cdn.junglecreations.com/wp/junglecms/2018/07/4164c5bd-wide-thumbnail.jpg',
-      'https://pinchofyum.com/wp-content/uploads/Crunchwrap-Inside.jpg',
-      'https://monsonmadethis.com/wp-content/uploads/2017/10/IMG_20171015_161017_025-e1533869302263.jpg'
+      'https://static1.ohman.vn/YanNews/2167221/201908/ben-trong-o-banh-mi-ngon-nhat-nhi-da-lat-co-gi-20190801-024535.jpg',
+      'https://shipdoandemff.com/wp-content/uploads/2018/05/B%C3%A1nh-m%E1%BB%B3-g%C3%A0-B%C3%A0-Lan.jpg',
+      'https://images.foody.vn/res/g67/668191/prof/s576x330/foody-mobile-23036975914_7f83646b-373-636335643329464911.jpg',
+      'https://xebanhmithonhiky.com.vn/wp-content/uploads/2019/07/banh-mi-nhan-ngai.jpg'
     ],
     time: '45',
     ingredients: [
@@ -123,7 +123,7 @@ export const recipes = [
       [29, '1 cup']
     ],
     description:
-      '-- In a medium pot over medium heat, heat 1 tablespoon oil. Add onion and cook until soft, 5 minutes. Add garlic and cook until fragrant, 1 minute more. Add tomato paste and stir to coat onion and garlic. Add ground beef and cook, breaking up meat with a wooden spoon, until no longer pink, 6 minutes. Drain fat.\n\n -- Return beef to pot and season with chili powder, paprika, salt, and pepper. Add tomato sauce and kidney beans. Bring to a boil, then reduce heat and let simmer 15 minutes. Add some chili to center of each tortilla, leaving room to fold in edges. Top with Fritos, then cheddar. Fold edges of tortillas toward the center, creating pleats. Invert Crunchwraps so pleats are on the bottom and stay together.\n\n -- In medium skillet over medium heat, heat remaining tablespoon oil. Add a Crunchwrap seam side down and cook until tortilla is golden, 3 to 5 minutes per side. Repeat with remaining Crunchwraps'
+      '-- Nếu bạn muốn có một chiếc bánh mì lành mạnh hơn, hãy thử công thức làm bánh mì gà nhanh gọn sau.\n\n Các bước thực hiện \n\n– Bạn lột vỏ tỏi rồi xay nhuyễn. Hành lá rửa thì rửa sạch và thái nhỏ.\n\n– Làm sạch, gọt vỏ rồi thái sợi cà rốt và dưa leo.\n\n– Ướp thịt gà với tiêu, hành, muối trong khoảng 15 phút.\n\n– Bắc chảo lên để phi thơm tỏi rồi cho nước mắm, tiêu, bột ngọt vào đun cho đến khi hỗn hợp sôi lên thì cho ức gà vào nướng trên chảo.\n\n – Khi thịt gà đã vàng đều, bạn gắp ra, để nguội rồi xé nhỏ.\n\n– Bỏ cà rốt và dưa leo vào tô to để trộn với với giấm, đường, ớt. Bạn để yên cho cà rốt và dưa leo ngấm gia vị trong khoảng 15 phút.\n\n– Nướng lại bánh mì cho nóng giòn rồi rạch dọc thân bánh để kẹp nhân.\n\n– Mở ổ bánh mì ra rồi phết ít mayonnaise lên bánh.\n\n– Bỏ thêm cà rốt và dưa leo vừa trộn lên bánh.\n\n– Kẹp thêm gà xé nhỏ vào và thưởng thức. Bạn có thể bỏ thêm tương ớt nếu thấy chưa vừa miệng.'
   },
   {
     recipeId: 1,

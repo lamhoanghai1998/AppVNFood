@@ -12,13 +12,13 @@ const styles = StyleSheet.create({
     borderColor: '#2cd18a',
     borderWidth: 1,
     justifyContent: 'center',
-    alignItems: 'center'
-    // backgroundColor: '#2cd18a'
+    alignItems: 'center',
+     backgroundColor: '#2cd18a'
   },
   text: {
-    fontSize: 14,
+    fontSize: 18,
     fontFamily: 'FallingSky',
-    color: '#2cd18a'
+    color: '#ffffff'
   }
 });
 

@@ -67,11 +67,18 @@ const styles = StyleSheet.create({
     marginLeft: 5,
   },
   category: {
-    fontSize: 14,
+    borderRadius: 150,
+    borderColor: '#ff6600',
+    borderWidth: 3,   
+    fontSize: 18,
     fontWeight: 'bold',
     fontFamily: 'FallingSky',
-    margin: 10,
-    color: '#2cd18a'
+    margin: 8,
+    color: '#ffffff',
+    marginLeft: 8,
+    marginRight: 10,
+    alignItems: 'center',
+    backgroundColor: '#ff6600'
   },
   infoDescriptionRecipe: {
     textAlign: 'left',
