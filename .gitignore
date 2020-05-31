@@ -1,0 +1,19 @@
+node_modules/**/*
+.idea/*
+.expo/*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+*.zip
+API_KEY
+web-build/
+web-report/
+design/svgs/*
+*.svg
+dist/*
+# macOS
+.DS_Store
