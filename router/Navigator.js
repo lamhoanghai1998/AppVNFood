@@ -52,7 +52,7 @@ const HomeStackScreen = () => (
       name="home"
       component={Home}
       options={{
-        title: "Tất cả chi tiết",
+        title: "Danh sách chuyến xe",
       }}
     />
     <HomeStack.Screen
