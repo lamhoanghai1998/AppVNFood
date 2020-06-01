@@ -65,7 +65,7 @@ const Info = (props) => {
                   });
                 }}
               >
-                <Text style={styles.fabText}> BOOK TICKET </Text>
+                <Text style={styles.fabText}> Đặt vé </Text>
                 <FontAwesome name="plus" size={30} color={Colors.light} />
               </TouchableOpacity>
             </View>

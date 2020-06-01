@@ -68,7 +68,7 @@ const Home = (props) => {
               });
           }}
         >
-          <Text style={styles.btnText}> Search </Text>
+          <Text style={styles.btnText}> Tìm kiếm </Text>
         </TouchableOpacity>
       </View>
       <ScrollView style={{ flex: 1 }} contentContainerStyle={{ flexGrow: 1 }}>

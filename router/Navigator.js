@@ -33,7 +33,7 @@ const AuthStackScreen = () => (
     <AuthStack.Screen
       name="login"
       component={Login}
-      options={{ title: "Online Bus Ticket Booking" }}
+      options={{ title: "Vé xe điện tử" }}
     />
   </AuthStack.Navigator>
 );
@@ -52,7 +52,7 @@ const HomeStackScreen = () => (
       name="home"
       component={Home}
       options={{
-        title: "All Details",
+        title: "Tất cả chi tiết",
       }}
     />
     <HomeStack.Screen
@@ -66,7 +66,7 @@ const HomeStackScreen = () => (
       name="searchBar"
       component={SearchBar}
       options={({ route }) => {
-        return { headerTitle: "Search Trains" };
+        return { headerTitle: "Tìm kiếm chuyến xe" };
       }}
     />
     <HomeStack.Screen
@@ -155,14 +155,14 @@ const TabNavigatorScreen = () => (
       name="home"
       component={HomeStackScreen}
       options={{
-        title: "Details",
+        title: "Chi tiết",
       }}
     />
     <TabNavigator.Screen
       name="booking"
       component={BookingStackScreen}
       options={{
-        title: "My Bookings",
+        title: "Vé của tôi",
       }}
     />
   </TabNavigator.Navigator>

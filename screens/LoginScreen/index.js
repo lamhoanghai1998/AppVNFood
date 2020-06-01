@@ -60,7 +60,7 @@ const LoginScreen = (props) => {
         errorAlert(error);
       }
     } else {
-      errorAlert("Please Fill the required fields");
+      errorAlert("Vui lòng điền vào chỗ trống");
     }
   };
 
@@ -108,7 +108,7 @@ const LoginScreen = (props) => {
               <Input
                 onChangeText={(text) => inputHandler({ text, key: "password" })}
                 value={formState.password}
-                placeholder={"Password"}
+                placeholder={"Mật khẩu"}
                 style={styles.textInput}
                 secureTextEntry={true}
                 returnKeyType="done"
@@ -121,7 +121,7 @@ const LoginScreen = (props) => {
                       authHandler(LOGIN);
                     }}
                   >
-                    LOGIN
+                    Đăng nhập
                   </Btn>
                 ) : (
                     <Btn
@@ -130,7 +130,7 @@ const LoginScreen = (props) => {
                         authHandler(REGISTER);
                       }}
                     >
-                      REGISTER
+                      Đăng kí
                     </Btn>
                   )}
               </View>
@@ -144,10 +144,10 @@ const LoginScreen = (props) => {
                 }}
               >
                 <Text style={styles.tag}>
-                  {screen ? "Need an account?" : "Have an account?"}
+                  {screen ? "Chưa có tài khoản?" : "Bạn muốn đăng kí?"}
                 </Text>
                 <Text style={{ ...styles.tag, ...styles.tagSwitcher }}>
-                  {screen ? "Register Here" : "Login Here"}
+                  {screen ? "Đăng kí ngay" : "Đăng nhập ngay"}
                 </Text>
               </TouchableOpacity>
             </Card>
